@@ -30,6 +30,12 @@
 		<version>2.3.10</version>
 	</dependency>
 	<dependency>
+		<groupId>com.typesafe.akka</groupId>
+		<artifactId>akka-persistence-experimental_2.10</artifactId>
+		<version>2.3.10</version>
+	</dependency>
+
+	<dependency>
 		<groupId>org.slf4j</groupId>
 		<artifactId>slf4j-simple</artifactId>
 		<version>1.7.12</version>
