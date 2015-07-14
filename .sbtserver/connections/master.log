@@ -1,13 +1,13 @@
-New log file opened at Tue Jul 07 23:06:07 BRT 2015 by 3210@giulliano
-Taking next connection to: 54581
-New client attempting to connect on port: 55877-54581
-  Address = /127.0.1.1:54581
-This client on port 55877 has uuid 25fe4650-97fa-4b20-9c15-3118f5ae9e61 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-25fe4650-97fa-4b20-9c15-3118f5ae9e61
-Taking next connection to: 54581
-New client attempting to connect on port: 55878-54581
-  Address = /127.0.1.1:54581
-Handshake exception on socket: 55878
+New log file opened at Tue Jul 14 10:09:31 BRT 2015 by 8667@localhost.localdomain
+Taking next connection to: 57115
+New client attempting to connect on port: 49446-57115
+  Address = /127.0.0.1:57115
+This client on port 49446 has uuid 7948ac9a-da66-41ab-b18b-1501aa39a515 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-7948ac9a-da66-41ab-b18b-1501aa39a515
+Taking next connection to: 57115
+New client attempting to connect on port: 49447-57115
+  Address = /127.0.0.1:57115
+Handshake exception on socket: 49447
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
@@ -17,21 +17,18 @@ Caused by: java.io.EOFException
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 54581
-New client attempting to connect on port: 55879-54581
-  Address = /127.0.1.1:54581
-This client on port 55879 has uuid 9a94e460-1c8c-41ce-8e07-041f18bc17f2 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-25fe4650-97fa-4b20-9c15-3118f5ae9e61, activator-9a94e460-1c8c-41ce-8e07-041f18bc17f2
-Taking next connection to: 54581
+Taking next connection to: 57115
+New client attempting to connect on port: 49448-57115
+  Address = /127.0.0.1:57115
+This client on port 49448 has uuid 502d2fc4-5698-4554-b787-8b718f8aeae3 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-7948ac9a-da66-41ab-b18b-1501aa39a515, activator-502d2fc4-5698-4554-b787-8b718f8aeae3
+Taking next connection to: 57115
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 54581
+Taking next connection to: 57115
 Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 54581
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 54581
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 54581
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 8667@localhost.localdomain logs at Tue Jul 14 10:15:32 BRT 2015, goodbye.

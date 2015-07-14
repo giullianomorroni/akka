@@ -48,8 +48,9 @@ public class TransformationBackend extends UntypedActor {
 	}
 
 	void register(Member member) {
-		if (member.hasRole("frontend"))
+		if (member.hasRole("frontend")) {
 			getContext().actorSelection(member.address() + "/user/frontend").tell(TransformationMessages.BACKEND_REGISTRATION, getSelf());
+		}
 	}
 
 }
